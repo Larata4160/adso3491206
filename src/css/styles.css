@@ -83,8 +83,36 @@ body {
             }
         }
     }
+     &.css{
+        background: linear-gradient(45deg, rgba(69, 5, 129, 0.788), #5e03c5);
+        background-attachment: fixed; 
+        &.css {
+        background: linear-gradient(45deg, black, #663399);
+        background-attachment: fixed;
+        main{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+                menu.mainmenu{
+                a:link, a:visited{
+                    span{
+                        background-color: purple;
+                        height: 50px;
+                        width: 50px;
+                    }
+                }
+                aside{
+                    h4{
+                        font-size: 1.2rem;
+                    }
+                }
+            }
+        }
+    }
+}
     main {
-        background: linear-gradient(#000600, #0000);
+        background: linear-gradient(#8d0ce4, #8e08d1c9);
         border-radius: 0.4rem;
         padding: 1rem;
         header.mainmenu {

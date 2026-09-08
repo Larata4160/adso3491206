@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body {
-    background: linear-gradient(#c7170e,rgb(28, 26, 26)) rgb(190, 241, 238);
+    background: linear-gradient(#f00909,rgb(48, 34, 34)) rgb(10, 10, 10);
     color:rgb(255, 255, 255);
     font-family: Poppins;
     font-weight: 400;
@@ -29,32 +31,46 @@ body {
             }
         }
     }
-    &.emmet {
-        background: linear-gradient(45deg, black, #1abc16);
-        section {
+    &.css{
+        background: linear-gradient(45deg, black, #663399);
+        background-attachment: fixed;
+        main{
+            header.mainmenu{
+                img{
+                    height:200px;
+                    width:200px;
+                }
+            }
+            menu.mainmenu{
+                margin-top:2rem;
+                a:link, a:visited{
+                    span{
+                        background-color: #663399;
+                        height: 50px;
+                        width: 50px;
+                    }
+                    aside{
+                        h4{
+                            font-size:1.2rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.emmet{
+        background: linear-gradient(45deg, black, #7acb16);
+        section{
             h2.subtitle{
-                color: #1abc16;
-                border-bottom: 2px dotted #1abc16;
+                color: #7acb16;
+                border-bottom: 2px dotted #7acb16;
                 padding-bottom: 0.4rem;
-                small {
+                small{
                     color: #fff;
                     font-size: 0.9rem;
                     font-weight: 400;
                 }
             }
-        }
-    h3 {
-        color: #1abc16;
-        margin: 0;
-    }
-    p {
-        font-size: 1.2rem;
-    }
-    xmp {
-        background-color: #0009;
-        border-radius: 8px;
-        padding: 0.6rem;
-        margin: 0;
         }
     }
     &.html{
@@ -83,36 +99,8 @@ body {
             }
         }
     }
-     &.css{
-        background: linear-gradient(45deg, rgba(69, 5, 129, 0.788), #5e03c5);
-        background-attachment: fixed; 
-        &.css {
-        background: linear-gradient(45deg, black, #663399);
-        background-attachment: fixed;
-        main{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-                menu.mainmenu{
-                a:link, a:visited{
-                    span{
-                        background-color: purple;
-                        height: 50px;
-                        width: 50px;
-                    }
-                }
-                aside{
-                    h4{
-                        font-size: 1.2rem;
-                    }
-                }
-            }
-        }
-    }
-}
     main {
-        background: linear-gradient(#8d0ce4, #8e08d1c9);
+        background-color: rgba(9, 9, 9, 0.297);
         border-radius: 0.4rem;
         padding: 1rem;
         header.mainmenu {
@@ -179,11 +167,11 @@ body {
                 text-decoration: none;
                 transition: all 0.4s ease-in;
                 &:hover{
-                    background-color: #ffffff;
+                    background-color: #53e09e;
                     transform: scale(1.05);
-            
+                }
                 span{
-                    background-color: #d70808;
+                    background-color: #53e09e;
                     border-radius: 50%;
                     display: flex;
                     font-size: 1.4rem;
@@ -223,8 +211,7 @@ body {
         td{
             width: 30px;
             height: 30px;
-            background-color: #0006;
-            border: 1px solid black;
+            border: 1px solid white;
         }
         .red{
             background: red;

@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@imurl('https://foport nts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
-    background: linear-gradient(#f00909,rgb(48, 34, 34)) rgb(10, 10, 10);
+    background: linear-gradient(#3297e9,rgb(240, 95, 95)) rgb(250, 247, 247);
     color:rgb(255, 255, 255);
     font-family: Poppins;
     font-weight: 400;
@@ -21,7 +21,7 @@ body {
             display: flex;
             padding: 0.4rem;
             align-items: center;
-            justify-content: center;
+            justify-content: center;    
             width: 34px;
             color: white;
             transform: scale(0.8);
